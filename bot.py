@@ -53,7 +53,6 @@ def right():
   stop()
 
 
-
 #bot start:
 sleep(3)
 timer = 0
