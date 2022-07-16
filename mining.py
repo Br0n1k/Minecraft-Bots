@@ -1,4 +1,3 @@
-from this import d
 import pyautogui as pgui
 import pydirectinput as pimp
 from time import sleep
@@ -11,6 +10,7 @@ def lava_searcher():
     is_lava = []
     lava_i = 0
     while lava_i < len(lavas):
+        #img check (bad results):
         lava_item = pgui.locateCenterOnScreen(lavas[lava_i], confidence = 0.4)
         # print(lava_item)
         if lava_item is None:
